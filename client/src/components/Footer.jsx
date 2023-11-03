@@ -6,7 +6,7 @@ import { RiTwitterLine, RiLinkedinBoxFill } from "react-icons/ri";
 export const Footer = () => {
   return (
     <footer className="w-full bg-black py-[80px] text-white flex items-center justify-center">
-      <div className="max-w-7xl mx-auto w-full flex items-center gap-[36px] justify-around">
+      <div className="max-w-7xl mx-auto w-full flex items-center gap-[36px] justify-between">
         <div className="flex flex-col gap-4 items-start">
           <Link to="/">
             <span className="text-[24px] font-bold ">Lumina Gadgets</span>

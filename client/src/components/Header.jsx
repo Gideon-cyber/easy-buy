@@ -3,16 +3,16 @@ import { Link } from "react-router-dom";
 
 export const Header = () => {
   return (
-    <header className="w-full fixed left-0 top-0 bg-white pt-[40px] pb-[16px] h-[92px] border-b-black border-opacity-30 border">
+    <header className="w-full fixed left-0 top-0 bg-white pt-[40px] pb-[16px] h-[92px] border-b-black border-opacity-30 border z-40">
       <nav className="flex items-center justify-between w-full max-w-7xl mx-auto ">
         <Link to="/">
           <span className="text-[24px] font-bold ">Lumina Gadgets</span>
         </Link>
 
-        <div className="flex items-center gap-[48px]">
+        <div className="flex items-center gap-[48px] text-[16px] font-Poppins">
           <Link to="/">Home</Link>
           <Link to="/">Contact</Link>
-          <Link to="/">About</Link>
+          <Link to="/about">About</Link>
           <Link to="/register">Sign up</Link>
         </div>
 
